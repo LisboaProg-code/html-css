@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <style>
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited{
+            color: darkred;
+        }
+
+        a:hover{
+            text-decoration: underline;
+            color: black;
+        }
+
+        a:active{
+            color: blue;
+        }
+
+        .importante::before{
+            content: ' ⚐ ';
+        }
+
+        .importante::after{
+            content: ' ⚑ ';	
+        }
+
+        .importante{
+            background-color: black;
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li class="icon">
+            <img src="imgs/icone-instagram.png" alt="">
+            <a href="https://www.instagram.com/092_lisboa/" target="_blank">Instagram</a></li>
+
+        <li><img src="imgs/icone-github.png" alt=""><a href="https://github.com/LisboaProg-code/lisboa" class="importante" target="_blank">Repositório do github</a></li>
+        
+        <li><img src="imgs/icone-youtube.png" alt=""><a href="https://www.youtube.com/kksaiko" target="_blank">Meu canal favorito do youtube</a></li>
+    </ul>
+</body>
+</html>

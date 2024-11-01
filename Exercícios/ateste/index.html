@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revisão de texto escondido</title>
+    <style>
+
+        body{
+            background-color: lightgray;
+        }
+
+        div > p{
+            display: none;
+        }
+        div:hover{
+            text-decoration: underline;
+            color: blue
+        }
+
+        div:hover > p{
+            margin: 10px;
+            padding: 15px;
+            display: block;
+            background-color: darkgray;
+            width: 250px;
+            border-radius: 15px;
+        }
+
+        p{
+            color: black;
+            text-decoration: underline;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Revisão</h1>
+    <div>
+        Saiba mais
+        <p>Autor: Mario Neves Lisboa Neto</p>
+    </div>
+</body>
+</html>

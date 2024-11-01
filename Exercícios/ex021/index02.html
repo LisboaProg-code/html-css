@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: darkgray;
+            margin: 0px;
+
+        }
+
+        nav{
+            background: rgb(43, 50, 58);
+            padding: 3px;
+            margin: auto;
+            border-radius: 10px;
+            text-indent: 1px;
+            padding-right: 3px;
+            padding-left: 10px;
+
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+            text-align: center;
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+            font-style: italic;
+            color: rgb(226, 219, 219);
+        }
+
+        article{
+            background-color: lightgray;
+            padding: 5px;
+            border-radius: 15px;
+
+        }
+
+        aside{
+            padding: 5px;
+            border-radius: 15px;
+        }
+
+        aside:hover{
+            color: rgb(34, 34, 160);
+            font-style: italic;
+        }
+
+        article > aside{
+            text-align: center;
+            color: black;
+            text-decoration: underline;
+        }
+
+        header{
+            width: 20em;
+            background-color: white;
+            border-radius: 15px;
+            text-align: center;
+            margin: auto;
+            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.322);
+            
+        }
+
+        main{
+            background-color: white;
+            text-align: justify;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 15px;
+            box-shadow: 2px 3px 5px rgb(68,68,68);
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 5px;
+            margin: 0px;
+            border-radius: 30px;
+
+        }
+
+        footer:hover{
+            color: dodgerblue;
+            text-decoration: underline;
+            font-style: italic;
+            font-weight: bold;
+        }
+
+        div#bola{
+            margin: 15px;
+            background-color: black;
+            width: 50px;
+            height: 50px;
+            border-radius: 50% ;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="assuntos">
+            <p>Esportes Política Tecnologia</p>
+        </section>
+
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae earum assumenda vero dolor veritatis amet quidem blanditiis praesentium adipisci ipsum nesciunt incidunt expedita magnam harum provident tenetur eum, iure quasi tempore? Ullam quia illo nihil neque excepturi architecto dolorum qui nulla deserunt ipsum molestiae quisquam hic officia, reiciendis dolores id magni placeat aut. Doloremque iusto, exercitationem atque beatae consectetur libero optio eius necessitatibus. Harum doloribus quas ex. Perspiciatis, saepe ipsa! Praesentium, expedita officia. Illo labore ad libero nobis porro placeat vel quia laboriosam, delectus sed distinctio accusamus consectetur consequatur, deserunt, nostrum error voluptatem eveniet ex. Sapiente quisquam corrupti nihil reiciendis?</p>
+                <aside>
+                    <p>Artigo escrito por José</p>
+                </aside>
+            </article>
+            
+            <article>
+
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Mario</p>
+
+    </footer>
+
+    <div id="bola"></div>
+</body>
+</html>

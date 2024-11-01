@@ -1,0 +1,230 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
+    src: local('Material Icons'),
+      local('MaterialIcons-Regular'),
+      url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),
+      url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
+      url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
+  }
+
+@font-face {
+    font-family: 'android';
+    src: url(fontes/IDroid02.otf);
+}
+
+@font-face {
+    font-family: 'oswald';
+    src: url(Oswald/Oswald-VariableFont_wght.ttf);
+}
+body{
+    background-color: #E7E5C1;
+    font-family: 'android';
+}
+
+header{
+    background-image: linear-gradient(to bottom, #3BD47F, #217746, #185332, #123F26);
+
+}
+
+header{
+    color: white;
+    height: 250px;
+    text-align: center;
+    padding: 0px;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: -22px;
+    margin-bottom: -35px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.281);
+}
+
+main{
+    background-color: white;
+    margin: auto;
+    margin-top: -10px;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    box-shadow: 5px 0px 5px rgba(0, 0, 0, 0.288);
+    
+}
+
+h1{
+    font-family: 'oswald';
+    padding: 10px;
+    font-weight: 400;
+    font-size: 2em;
+    
+}
+
+a{
+    color: #0f3621;
+    background-color: #3BD47F;
+    width: 1px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #165331;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.arial{
+    padding: 20px;
+    font-stretch: condensed;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+nav{
+    color: white;
+    display: inline-block;
+    font-family: oswald;
+    text-align: left;
+    padding-left: 5px;
+}
+
+nav:hover{
+    text-decoration: underline;
+    font-style: italic;
+    background-color: #138a2d;
+    color: #0f3621;
+}
+
+#pequeno:hover{
+    text-indent: 15px;
+    width: 70px;
+    height: 34px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.233);
+}
+
+#medio:hover{
+    text-indent: 9px;
+    width: 70px;
+    height: 34px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#grande:hover{
+    text-indent: 10px;
+    width: 100px;
+    height: 34px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#gigante:hover{
+    text-indent: 10px;
+    width: 100px;
+    height: 34px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#princ{
+    font-family: android;
+    color: #3d7753;
+}
+
+.central{
+    color: #55A573;
+    font-family: android;
+    background-image: linear-gradient(to right, #83E2B1, #A9EDC8, #CAF4DC, #DBF8E8, white);
+    margin-left: 10px;
+    text-indent: 10px;
+    border-radius: 5px;
+}
+
+.imagem{
+    width: 100%;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 30px;
+    padding: 10px;
+    text-align: justify;
+}
+
+#bugdroid{
+    display: block;
+    margin: auto;
+}
+
+iframe{
+    width: 100%;
+}
+
+#extra{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #14502D;
+    color: white;
+    text-indent: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+section{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    margin-top: -20px;
+    background-color: #6BBD8E;
+
+}
+
+
+#ultimos{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.247);
+}
+
+ul{
+    text-decoration: underline;
+}
+
+#especial{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    text-indent: 30px;
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+footer{
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+    height: 30px;
+    width: auto;
+    margin-left: -8px;
+    margin-right: -8px;
+    text-align: center;
+    border-radius: 5px;
+    padding-top: 10px;
+}
+
+#priv{
+    background-color: black;
+    color: white;
+    font-weight: normal;
+    text-decoration: none;
+
+}
+
+#priv:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
